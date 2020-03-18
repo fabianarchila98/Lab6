@@ -96,7 +96,7 @@ class Trainer(object):
                 # all components have equal weightage
                 loss = loss1 + loss2 + loss3 + loss4 + loss5 + loss6
 
-                if np.isnan(float(loss.data[0])):
+                if np.isnan(float(loss.data[0].item())):
                     raise ValueError('loss is nan while training')
 
                 losses.append(loss)
