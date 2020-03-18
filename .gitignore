@@ -1,1 +1,4 @@
 data/
+model/
+train/
+__pycache__/
