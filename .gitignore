@@ -2,3 +2,5 @@ data/
 model/
 train/
 __pycache__/
+py-bsds500/
+
